@@ -12,6 +12,8 @@ return {
   lazy = false,
   keys = {
     { '\\', ':Neotree reveal<CR>', desc = 'NeoTree reveal', silent = true },
+    { mode = 'n', '<C-n>', '<cmd>Neotree close<CR>', desc = 'NvimTreeをトグルする' },
+    { mode = 'n', '<C-m>', '<cmd>Neotree focus<CR>', desc = 'NvimTreeにフォーカス' },
   },
   opts = {
     filesystem = {
