@@ -72,3 +72,8 @@ vim.o.scrolloff = 10
 vim.o.confirm = true
 
 -- vim: ts=2 sts=2 sw=2 et
+vim.o.shiftwidth = 4 -- シフト幅を4に設定する
+vim.o.tabstop = 4 -- タブ幅を4に設定する
+vim.o.expandtab = true -- タブ文字をスペースに置き換える
+vim.o.autoindent = true -- 自動インデントを有効にする
+vim.o.smartindent = true -- インデントをスマートに調整する
